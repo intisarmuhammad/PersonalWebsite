@@ -9,7 +9,8 @@ body{
   width: 75%;
   height: auto;
   text-align: center;
-  padding-left: 200px;
+  padding-left: 180px;
+  padding-top: 100px;
 }
 div.scrollmenu{
     text-align: center;
@@ -18,16 +19,18 @@ div.scrollmenu{
     white-space: nowrap;
 }
 
-.activeLink{
-  color:white;
+
+.scrollmenu .activeLink{
+  color:#BF26A6;
 }
 
 .activeLink:hover{
   color:#BF26A6;
+  padding-top:0%;
 }
 
 .inactiveLink:hover{
-    color: #934EA6;
+    color: #F2F2F2;
 }
 div.scrollmenu a {
     display: inline-block;
@@ -47,4 +50,6 @@ div.scrollmenu a {
     width: 75%;
     max-width: 400px;
     height: auto;
+    padding-left: 500px;
+    padding-top: 50px;
   }
